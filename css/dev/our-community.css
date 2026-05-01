@@ -1,0 +1,57 @@
+.our-community {
+  margin-bottom: 160px;
+}
+.our-community__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.our-community__media {
+  max-width: 393px;
+  width: 100%;
+  display: flex;
+}
+.our-community__media img,
+.our-community__media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.our-community__media.our-community__media--last {
+  order: 1;
+}
+.our-community__content {
+  max-width: 634px;
+  width: 100%;
+  margin-block: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+.our-community__text {
+  max-width: 470px;
+  font-size: 16px;
+  line-height: 120%;
+}
+@media (width <= 62em) {
+  .our-community {
+    margin-bottom: 100px;
+  }
+  .our-community__body {
+    flex-wrap: wrap;
+    gap: 36px 10px;
+  }
+  .our-community__media {
+    max-width: 100%;
+    flex: 1 1 auto;
+    width: calc(50% - 10px);
+  }
+  .our-community__media.our-community__media--last {
+    order: initial;
+  }
+  .our-community__content {
+    margin-inline: auto;
+  }
+}

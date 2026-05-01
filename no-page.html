@@ -1,0 +1,993 @@
+<!doctype html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/InterDisplay-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/InterDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/InterDisplay-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/InterDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>404</title>
+		<link rel="stylesheet" crossorigin="" href="./css/style.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/footer.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/header.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/popup.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/cart.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/infoblock.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/search-block.min.css?v=1777639389755">
+		<link rel="stylesheet" crossorigin="" href="./css/menu.min.css?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/rolldown-runtime.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/inputmask.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/dynamic.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/footer.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/header.min.js?v=1777639389755">
+		<link rel="modulepreload" crossorigin="" href="./js/popup.min.js?v=1777639389755">
+	</head>
+	<body>
+		<div class="wrapper" data-top-position="">
+			<header class="header" data-fls-lp="">
+				<div class="header__container">
+					<div class="header__body">
+						<div class="header__left">
+							<button type="button" class="header__burger" data-menu="menu" data-menu-click="">
+								<span class="header__burger-icon"></span>
+								<span class="header__burger-text">Каталог</span>
+							</button>
+							<a data-fls-dynamic=".menu__top, 992" href="#" class="header__link">Інновації</a>
+						</div>
+						<a href="#" class="header__logo">
+							<img src="./assets/img/logo.svg" alt="logo" loading="lazy">
+						</a>
+						<div class="header__right">
+							<a data-fls-dynamic=".menu__top, 992" href="#" class="header__link">Про компанію</a>
+							<div class="header__actions">
+								<button data-fls-dynamic=".menu__top, 650, first" type="button" class="header__action search-btn" data-menu="search" data-menu-click="">
+									<span class="search-btn__text">Пошук</span>
+									<svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.18146 0C3.22384 0 0 3.22274 0 7.17903C0 11.1353 3.22384 14.3643 7.18146 14.3643C8.87188 14.3643 10.4265 13.7721 11.6553 12.7888L14.6466 15.7776C14.7976 15.9223 14.9992 16.0021 15.2083 16C15.4174 15.9978 15.6174 15.9139 15.7653 15.7662C15.9133 15.6185 15.9975 15.4188 15.9999 15.2097C16.0024 15.0007 15.9228 14.799 15.7783 14.6479L12.787 11.6576C13.7714 10.4274 14.3645 8.87082 14.3645 7.17903C14.3645 3.22274 11.1391 0 7.18146 0ZM7.18146 1.59571C10.2764 1.59571 12.7667 4.08513 12.7667 7.17903C12.7667 10.2729 10.2764 12.7686 7.18146 12.7686C4.08651 12.7686 1.59623 10.2729 1.59623 7.17903C1.59623 4.08513 4.08651 1.59571 7.18146 1.59571Z" fill="currentColor"></path>
+									</svg>
+								</button>
+								<button type="button" class="header__action not-empty" data-menu="cart" data-menu-click="">
+									<svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M2.57842 0.358564C2.68166 0.138811 2.89272 0 3.12359 0H12.876C13.1069 0 13.3179 0.138811 13.4211 0.358564L15.0465 3.81802C15.0889 3.90809 15.1109 4.00741 15.1109 4.10811V13.6216C15.1109 14.9352 14.1103 16 12.876 16H3.12359C1.88928 16 0.888672 14.9352 0.888672 13.6216V4.10811C0.888672 4.00741 0.910704 3.90809 0.953021 3.81802L2.57842 0.358564ZM3.5003 1.2973L2.48443 3.45946H13.5152L12.4993 1.2973H3.5003ZM13.8918 4.75676H2.10772V13.6216C2.10772 14.2187 2.56254 14.7027 3.12359 14.7027H12.876C13.4371 14.7027 13.8918 14.2187 13.8918 13.6216V4.75676ZM5.56169 6.91892C5.89832 6.91892 6.17121 7.20934 6.17121 7.56757C6.17121 8.64225 6.98992 9.51351 7.99978 9.51351C9.00964 9.51351 9.82835 8.64225 9.82835 7.56757C9.82835 7.20934 10.1013 6.91892 10.4379 6.91892C10.7745 6.91892 11.0474 7.20934 11.0474 7.56757C11.0474 9.35879 9.68296 10.8108 7.99978 10.8108C6.31663 10.8108 4.95216 9.35879 4.95216 7.56757C4.95216 7.20934 5.22506 6.91892 5.56169 6.91892Z" fill="currentColor"></path>
+									</svg>
+									<span class="header__action-count">2</span>
+								</button>
+								<div data-fls-dynamic=".menu__head, 650, first" class="header__lang lang-block" data-drop-block="">
+									<button type="button" class="lang-block__current" data-drop-current="">UA</button>
+									<div class="lang-block__dropdown">
+										<a href="#" class="lang-block__link is-active">UA</a>
+										<a href="#" class="lang-block__link">RU</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__menu menu" data-menu-target="menu">
+					<div class="menu__head">
+						<figure class="menu__logo">
+							<img src="./assets/img/logo.svg" alt="logo" loading="lazy">
+						</figure>
+						<button type="button" class="menu__close close-icon" data-menu-close="">
+							<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+							</svg>
+						</button>
+					</div>
+					<div class="menu__wrapper">
+						<div class="menu__inner">
+							<nav class="menu__body">
+								<div class="menu__top">
+									<button type="button" class="menu__cart not-empty" data-menu="cart" data-menu-click="">
+										<span class="menu__cart-text">Кошик</span>
+										<span class="menu__cart-info">
+											<svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M2.57842 0.358564C2.68166 0.138811 2.89272 0 3.12359 0H12.876C13.1069 0 13.3179 0.138811 13.4211 0.358564L15.0465 3.81802C15.0889 3.90809 15.1109 4.00741 15.1109 4.10811V13.6216C15.1109 14.9352 14.1103 16 12.876 16H3.12359C1.88928 16 0.888672 14.9352 0.888672 13.6216V4.10811C0.888672 4.00741 0.910704 3.90809 0.953021 3.81802L2.57842 0.358564ZM3.5003 1.2973L2.48443 3.45946H13.5152L12.4993 1.2973H3.5003ZM13.8918 4.75676H2.10772V13.6216C2.10772 14.2187 2.56254 14.7027 3.12359 14.7027H12.876C13.4371 14.7027 13.8918 14.2187 13.8918 13.6216V4.75676ZM5.56169 6.91892C5.89832 6.91892 6.17121 7.20934 6.17121 7.56757C6.17121 8.64225 6.98992 9.51351 7.99978 9.51351C9.00964 9.51351 9.82835 8.64225 9.82835 7.56757C9.82835 7.20934 10.1013 6.91892 10.4379 6.91892C10.7745 6.91892 11.0474 7.20934 11.0474 7.56757C11.0474 9.35879 9.68296 10.8108 7.99978 10.8108C6.31663 10.8108 4.95216 9.35879 4.95216 7.56757C4.95216 7.20934 5.22506 6.91892 5.56169 6.91892Z" fill="currentColor"></path>
+											</svg>
+											<span class="menu__cart-count">2</span>
+										</span>
+									</button>
+								</div>
+								<div class="menu__body-head">
+									<div class="menu__title title title--h2">Колекції для вас</div>
+									<a href="#" class="menu__all button button--third">
+										<span>Всі колекції</span>
+										<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+										</svg>
+									</a>
+								</div>
+								<div class="menu__collection">
+									<div class="menu__collection-block">
+										<div class="menu__collection-head">
+											<div class="menu__collection-title">Спорт</div>
+											<a href="#" class="menu__collection-all">
+												<span>Див все</span>
+												<svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.79936 10L2.88925 9.125L6.5297 5.625H0V4.375H6.5297L2.88925 0.874999L3.79936 0L9 5L3.79936 10Z" fill="currentColor"></path>
+												</svg>
+											</a>
+										</div>
+										<ul class="menu__collection-list">
+											<li class="menu__collection-item">
+												<a href="#" class="menu__collection-link">
+													<span class="menu__collection-img">
+														<img alt="Image" loading="lazy" src="./assets/img/products/menu-collection.webp">
+													</span>
+													<span class="menu__collection-name">Music Shield</span>
+												</a>
+											</li>
+											<li class="menu__collection-item">
+												<a href="#" class="menu__collection-link">
+													<span class="menu__collection-img">
+														<img alt="Image" loading="lazy" src="./assets/img/products/menu-collection.webp">
+													</span>
+													<span class="menu__collection-name">Music Shield</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="menu__collection-block">
+										<div class="menu__collection-head">
+											<div class="menu__collection-title">Лайфстайл</div>
+											<a href="#" class="menu__collection-all">
+												<span>Див все</span>
+												<svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.79936 10L2.88925 9.125L6.5297 5.625H0V4.375H6.5297L2.88925 0.874999L3.79936 0L9 5L3.79936 10Z" fill="currentColor"></path>
+												</svg>
+											</a>
+										</div>
+										<ul class="menu__collection-list">
+											<li class="menu__collection-item">
+												<a href="#" class="menu__collection-link">
+													<span class="menu__collection-img">
+														<img alt="Image" loading="lazy" src="./assets/img/products/menu-collection.webp">
+													</span>
+													<span class="menu__collection-name">Music Shield</span>
+												</a>
+											</li>
+											<li class="menu__collection-item">
+												<a href="#" class="menu__collection-link">
+													<span class="menu__collection-img">
+														<img alt="Image" loading="lazy" src="./assets/img/products/menu-collection.webp">
+													</span>
+													<span class="menu__collection-name">Music Shield</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="menu__collection-block">
+										<div class="menu__collection-head">
+											<div class="menu__collection-title">Призматік</div>
+											<a href="#" class="menu__collection-all">
+												<span>Див все</span>
+												<svg width="9" height="10" viewbox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.79936 10L2.88925 9.125L6.5297 5.625H0V4.375H6.5297L2.88925 0.874999L3.79936 0L9 5L3.79936 10Z" fill="currentColor"></path>
+												</svg>
+											</a>
+										</div>
+										<ul class="menu__collection-list">
+											<li class="menu__collection-item">
+												<a href="#" class="menu__collection-link">
+													<span class="menu__collection-img">
+														<img alt="Image" loading="lazy" src="./assets/img/products/menu-collection.webp">
+													</span>
+													<span class="menu__collection-name">Music Shield</span>
+												</a>
+											</li>
+											<li class="menu__collection-item">
+												<a href="#" class="menu__collection-link">
+													<span class="menu__collection-img">
+														<img alt="Image" loading="lazy" src="./assets/img/products/menu-collection.webp">
+													</span>
+													<span class="menu__collection-name">Music Shield</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="menu__content">
+									<div class="menu__info">
+										<div class="menu__subtitle">Кращі категорії</div>
+										<a href="#" class="menu__all button button--third">
+											<span>Всі товари</span>
+											<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+											</svg>
+										</a>
+									</div>
+									<ul class="menu__list">
+										<li class="menu__item">
+											<a href="#" class="menu__link">Бестселери</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Новинки</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Аксесуари</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Колаборації</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+							<article class="product-card menu__product">
+								<div class="product-card__top">
+									<div class="product-card__badges">
+										<div class="product-card__badge">Хіт</div>
+									</div>
+									<figure class="product-card__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+								</div>
+								<div class="product-card__body">
+									<div class="product-card__colors">
+										<a href="#" class="product-card__color is-active">
+											<img src="./assets/img/colors/color-1.svg" alt="Image" loading="lazy">
+										</a>
+									</div>
+									<a href="#" class="product-card__title">Aura - Black | Calm</a>
+									<div class="product-card__text">Єдині в світі окуляри зі зміною кольору</div>
+									<div class="product-card__rating">
+										<div class="product-card__stars">
+											<div class="stars-block" style="--rating:80;">
+												<svg class="stars-block__bg" width="92" height="16" viewbox="0 0 92 16" fill="none">
+													<path d="M8 0L10.7273 4.24616L15.6085 5.52786L12.4129 9.43384L12.7023 14.4721L8 12.64L3.29772 14.4721L3.5871 9.43384L0.391548 5.52786L5.27268 4.24616L8 0Z" fill="currentColor"></path>
+													<path d="M27 0L29.7273 4.24616L34.6085 5.52786L31.4129 9.43384L31.7023 14.4721L27 12.64L22.2977 14.4721L22.5871 9.43384L19.3915 5.52786L24.2727 4.24616L27 0Z" fill="currentColor"></path>
+													<path d="M46 0L48.7273 4.24616L53.6085 5.52786L50.4129 9.43384L50.7023 14.4721L46 12.64L41.2977 14.4721L41.5871 9.43384L38.3915 5.52786L43.2727 4.24616L46 0Z" fill="currentColor"></path>
+													<path d="M65 0L67.7273 4.24616L72.6085 5.52786L69.4129 9.43384L69.7023 14.4721L65 12.64L60.2977 14.4721L60.5871 9.43384L57.3915 5.52786L62.2727 4.24616L65 0Z" fill="currentColor"></path>
+													<path d="M84 0L86.7273 4.24616L91.6085 5.52786L88.4129 9.43384L88.7023 14.4721L84 12.64L79.2977 14.4721L79.5871 9.43384L76.3915 5.52786L81.2727 4.24616L84 0Z" fill="currentColor"></path>
+												</svg>
+												<div class="stars-block__fill">
+													<svg class="stars-block__rating" width="92" height="16" viewbox="0 0 92 16" fill="none">
+														<path d="M8 0L10.7273 4.24616L15.6085 5.52786L12.4129 9.43384L12.7023 14.4721L8 12.64L3.29772 14.4721L3.5871 9.43384L0.391548 5.52786L5.27268 4.24616L8 0Z" fill="currentColor"></path>
+														<path d="M27 0L29.7273 4.24616L34.6085 5.52786L31.4129 9.43384L31.7023 14.4721L27 12.64L22.2977 14.4721L22.5871 9.43384L19.3915 5.52786L24.2727 4.24616L27 0Z" fill="currentColor"></path>
+														<path d="M46 0L48.7273 4.24616L53.6085 5.52786L50.4129 9.43384L50.7023 14.4721L46 12.64L41.2977 14.4721L41.5871 9.43384L38.3915 5.52786L43.2727 4.24616L46 0Z" fill="currentColor"></path>
+														<path d="M65 0L67.7273 4.24616L72.6085 5.52786L69.4129 9.43384L69.7023 14.4721L65 12.64L60.2977 14.4721L60.5871 9.43384L57.3915 5.52786L62.2727 4.24616L65 0Z" fill="currentColor"></path>
+														<path d="M84 0L86.7273 4.24616L91.6085 5.52786L88.4129 9.43384L88.7023 14.4721L84 12.64L79.2977 14.4721L79.5871 9.43384L76.3915 5.52786L81.2727 4.24616L84 0Z" fill="currentColor"></path>
+													</svg>
+												</div>
+											</div>
+										</div>
+										<div class="product-card__rating-count">(24)</div>
+									</div>
+									<div class="product-card__bottom">
+										<div class="product-card__prices">
+											<div class="product-card__price">
+												17 000
+												<span>₴</span>
+											</div>
+										</div>
+										<button type="button" class="product-card__buy button">Купити</button>
+									</div>
+								</div>
+								<a href="#" class="product-card__bg">
+									<img alt="Image" loading="lazy" src="./assets/img/products/hover-image.webp">
+								</a>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="cart" data-menu-target="cart">
+					<div class="cart__inner">
+						<div class="cart__head">
+							<div class="cart__title title title--h2">Кошик</div>
+							<button type="button" class="cart__close close-icon" data-menu-close="">
+								<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+								</svg>
+							</button>
+						</div>
+						<div class="cart__products">
+							<article class="cart-product">
+								<figure class="cart-product__img">
+									<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+								</figure>
+								<div class="cart-product__body">
+									<div class="cart-product__head">
+										<div class="cart-product__info">
+											<a href="#" class="cart-product__title">Aura - Black | Calm</a>
+											<div class="cart-product__text">Єдині в світі окуляри зі зміною кольору</div>
+										</div>
+									</div>
+									<div class="cart-product__bottom">
+										<div class="cart-product__prices">
+											<div class="cart-product__oldprice">
+												19 000
+												<span>₴</span>
+											</div>
+											<div class="cart-product__price">
+												17 000
+												<span>₴</span>
+											</div>
+										</div>
+										<div data-fls-quantity="" class="quantity cart-product__quantity">
+											<button data-fls-quantity-minus="" type="button" class="quantity__button">
+												<svg width="7" height="2" viewbox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7 0V2H0V0H7Z" fill="currentColor"></path>
+												</svg>
+											</button>
+											<div class="quantity__input">
+												<input data-fls-quantity-value="" autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-fls-quantity-plus="" type="button" class="quantity__button">
+												<svg width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.12176 8V4.84148H0V3.15852H3.12176V0H4.88623V3.15852H8V4.84148H4.88623V8H3.12176Z" fill="currentColor"></path>
+												</svg>
+											</button>
+										</div>
+										<button type="button" class="cart-product__delete">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.3 5.1H3.7C3.51435 5.1 3.3363 5.17375 3.20503 5.30503C3.07375 5.4363 3 5.61435 3 5.8C3 5.98565 3.07375 6.1637 3.20503 6.29497C3.3363 6.42625 3.51435 6.5 3.7 6.5H5.1V14.9C5.10017 15.4569 5.32147 15.9909 5.71526 16.3847C6.10905 16.7785 6.6431 16.9998 7.2 17H12.8C13.3569 16.9999 13.891 16.7786 14.2848 16.3848C14.6786 15.991 14.8999 15.4569 14.9 14.9V6.5H16.3C16.4857 6.5 16.6637 6.42625 16.795 6.29497C16.9263 6.1637 17 5.98565 17 5.8C17 5.61435 16.9263 5.4363 16.795 5.30503C16.6637 5.17375 16.4857 5.1 16.3 5.1ZM9.3 12.8C9.3 12.9857 9.22625 13.1637 9.09497 13.295C8.9637 13.4263 8.78565 13.5 8.6 13.5C8.41435 13.5 8.2363 13.4263 8.10503 13.295C7.97375 13.1637 7.9 12.9857 7.9 12.8V9.3C7.9 9.11435 7.97375 8.9363 8.10503 8.80503C8.2363 8.67375 8.41435 8.6 8.6 8.6C8.78565 8.6 8.9637 8.67375 9.09497 8.80503C9.22625 8.9363 9.3 9.11435 9.3 9.3V12.8ZM12.1 12.8C12.1 12.9857 12.0262 13.1637 11.895 13.295C11.7637 13.4263 11.5857 13.5 11.4 13.5C11.2143 13.5 11.0363 13.4263 10.905 13.295C10.7737 13.1637 10.7 12.9857 10.7 12.8V9.3C10.7 9.11435 10.7737 8.9363 10.905 8.80503C11.0363 8.67375 11.2143 8.6 11.4 8.6C11.5857 8.6 11.7637 8.67375 11.895 8.80503C12.0262 8.9363 12.1 9.11435 12.1 9.3V12.8Z" fill="currentColor"></path>
+												<path d="M8.6 4.4H11.4C11.5857 4.4 11.7637 4.32625 11.895 4.19497C12.0262 4.0637 12.1 3.88565 12.1 3.7C12.1 3.51435 12.0262 3.3363 11.895 3.20503C11.7637 3.07375 11.5857 3 11.4 3H8.6C8.41435 3 8.2363 3.07375 8.10503 3.20503C7.97375 3.3363 7.9 3.51435 7.9 3.7C7.9 3.88565 7.97375 4.0637 8.10503 4.19497C8.2363 4.32625 8.41435 4.4 8.6 4.4Z" fill="currentColor"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</article>
+							<article class="cart-product">
+								<figure class="cart-product__img">
+									<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+								</figure>
+								<div class="cart-product__body">
+									<div class="cart-product__head">
+										<div class="cart-product__info">
+											<a href="#" class="cart-product__title">Aura - Red | Passion</a>
+											<div class="cart-product__text">Погляньте на світ з новим кольором</div>
+										</div>
+									</div>
+									<div class="cart-product__bottom">
+										<div class="cart-product__prices">
+											<div class="cart-product__price">
+												18 500
+												<span>₴</span>
+											</div>
+										</div>
+										<div data-fls-quantity="" class="quantity cart-product__quantity">
+											<button data-fls-quantity-minus="" type="button" class="quantity__button">
+												<svg width="7" height="2" viewbox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7 0V2H0V0H7Z" fill="currentColor"></path>
+												</svg>
+											</button>
+											<div class="quantity__input">
+												<input data-fls-quantity-value="" autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-fls-quantity-plus="" type="button" class="quantity__button">
+												<svg width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.12176 8V4.84148H0V3.15852H3.12176V0H4.88623V3.15852H8V4.84148H4.88623V8H3.12176Z" fill="currentColor"></path>
+												</svg>
+											</button>
+										</div>
+										<button type="button" class="cart-product__delete">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.3 5.1H3.7C3.51435 5.1 3.3363 5.17375 3.20503 5.30503C3.07375 5.4363 3 5.61435 3 5.8C3 5.98565 3.07375 6.1637 3.20503 6.29497C3.3363 6.42625 3.51435 6.5 3.7 6.5H5.1V14.9C5.10017 15.4569 5.32147 15.9909 5.71526 16.3847C6.10905 16.7785 6.6431 16.9998 7.2 17H12.8C13.3569 16.9999 13.891 16.7786 14.2848 16.3848C14.6786 15.991 14.8999 15.4569 14.9 14.9V6.5H16.3C16.4857 6.5 16.6637 6.42625 16.795 6.29497C16.9263 6.1637 17 5.98565 17 5.8C17 5.61435 16.9263 5.4363 16.795 5.30503C16.6637 5.17375 16.4857 5.1 16.3 5.1ZM9.3 12.8C9.3 12.9857 9.22625 13.1637 9.09497 13.295C8.9637 13.4263 8.78565 13.5 8.6 13.5C8.41435 13.5 8.2363 13.4263 8.10503 13.295C7.97375 13.1637 7.9 12.9857 7.9 12.8V9.3C7.9 9.11435 7.97375 8.9363 8.10503 8.80503C8.2363 8.67375 8.41435 8.6 8.6 8.6C8.78565 8.6 8.9637 8.67375 9.09497 8.80503C9.22625 8.9363 9.3 9.11435 9.3 9.3V12.8ZM12.1 12.8C12.1 12.9857 12.0262 13.1637 11.895 13.295C11.7637 13.4263 11.5857 13.5 11.4 13.5C11.2143 13.5 11.0363 13.4263 10.905 13.295C10.7737 13.1637 10.7 12.9857 10.7 12.8V9.3C10.7 9.11435 10.7737 8.9363 10.905 8.80503C11.0363 8.67375 11.2143 8.6 11.4 8.6C11.5857 8.6 11.7637 8.67375 11.895 8.80503C12.0262 8.9363 12.1 9.11435 12.1 9.3V12.8Z" fill="currentColor"></path>
+												<path d="M8.6 4.4H11.4C11.5857 4.4 11.7637 4.32625 11.895 4.19497C12.0262 4.0637 12.1 3.88565 12.1 3.7C12.1 3.51435 12.0262 3.3363 11.895 3.20503C11.7637 3.07375 11.5857 3 11.4 3H8.6C8.41435 3 8.2363 3.07375 8.10503 3.20503C7.97375 3.3363 7.9 3.51435 7.9 3.7C7.9 3.88565 7.97375 4.0637 8.10503 4.19497C8.2363 4.32625 8.41435 4.4 8.6 4.4Z" fill="currentColor"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</article>
+							<article class="cart-product">
+								<figure class="cart-product__img">
+									<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+								</figure>
+								<div class="cart-product__body">
+									<div class="cart-product__head">
+										<div class="cart-product__info">
+											<a href="#" class="cart-product__title">Aura - Blue | Serenity</a>
+											<div class="cart-product__text">Окуляри для моментів спокою</div>
+										</div>
+									</div>
+									<div class="cart-product__bottom">
+										<div class="cart-product__prices">
+											<div class="cart-product__price">
+												16 500
+												<span>₴</span>
+											</div>
+										</div>
+										<div data-fls-quantity="" class="quantity cart-product__quantity">
+											<button data-fls-quantity-minus="" type="button" class="quantity__button">
+												<svg width="7" height="2" viewbox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7 0V2H0V0H7Z" fill="currentColor"></path>
+												</svg>
+											</button>
+											<div class="quantity__input">
+												<input data-fls-quantity-value="" autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-fls-quantity-plus="" type="button" class="quantity__button">
+												<svg width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.12176 8V4.84148H0V3.15852H3.12176V0H4.88623V3.15852H8V4.84148H4.88623V8H3.12176Z" fill="currentColor"></path>
+												</svg>
+											</button>
+										</div>
+										<button type="button" class="cart-product__delete">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.3 5.1H3.7C3.51435 5.1 3.3363 5.17375 3.20503 5.30503C3.07375 5.4363 3 5.61435 3 5.8C3 5.98565 3.07375 6.1637 3.20503 6.29497C3.3363 6.42625 3.51435 6.5 3.7 6.5H5.1V14.9C5.10017 15.4569 5.32147 15.9909 5.71526 16.3847C6.10905 16.7785 6.6431 16.9998 7.2 17H12.8C13.3569 16.9999 13.891 16.7786 14.2848 16.3848C14.6786 15.991 14.8999 15.4569 14.9 14.9V6.5H16.3C16.4857 6.5 16.6637 6.42625 16.795 6.29497C16.9263 6.1637 17 5.98565 17 5.8C17 5.61435 16.9263 5.4363 16.795 5.30503C16.6637 5.17375 16.4857 5.1 16.3 5.1ZM9.3 12.8C9.3 12.9857 9.22625 13.1637 9.09497 13.295C8.9637 13.4263 8.78565 13.5 8.6 13.5C8.41435 13.5 8.2363 13.4263 8.10503 13.295C7.97375 13.1637 7.9 12.9857 7.9 12.8V9.3C7.9 9.11435 7.97375 8.9363 8.10503 8.80503C8.2363 8.67375 8.41435 8.6 8.6 8.6C8.78565 8.6 8.9637 8.67375 9.09497 8.80503C9.22625 8.9363 9.3 9.11435 9.3 9.3V12.8ZM12.1 12.8C12.1 12.9857 12.0262 13.1637 11.895 13.295C11.7637 13.4263 11.5857 13.5 11.4 13.5C11.2143 13.5 11.0363 13.4263 10.905 13.295C10.7737 13.1637 10.7 12.9857 10.7 12.8V9.3C10.7 9.11435 10.7737 8.9363 10.905 8.80503C11.0363 8.67375 11.2143 8.6 11.4 8.6C11.5857 8.6 11.7637 8.67375 11.895 8.80503C12.0262 8.9363 12.1 9.11435 12.1 9.3V12.8Z" fill="currentColor"></path>
+												<path d="M8.6 4.4H11.4C11.5857 4.4 11.7637 4.32625 11.895 4.19497C12.0262 4.0637 12.1 3.88565 12.1 3.7C12.1 3.51435 12.0262 3.3363 11.895 3.20503C11.7637 3.07375 11.5857 3 11.4 3H8.6C8.41435 3 8.2363 3.07375 8.10503 3.20503C7.97375 3.3363 7.9 3.51435 7.9 3.7C7.9 3.88565 7.97375 4.0637 8.10503 4.19497C8.2363 4.32625 8.41435 4.4 8.6 4.4Z" fill="currentColor"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</article>
+							<article class="cart-product">
+								<figure class="cart-product__img">
+									<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+								</figure>
+								<div class="cart-product__body">
+									<div class="cart-product__head">
+										<div class="cart-product__info">
+											<a href="#" class="cart-product__title">Aura - Black | Calm</a>
+											<div class="cart-product__text">Єдині в світі окуляри зі зміною кольору</div>
+										</div>
+									</div>
+									<div class="cart-product__bottom">
+										<div class="cart-product__prices">
+											<div class="cart-product__oldprice">
+												19 000
+												<span>₴</span>
+											</div>
+											<div class="cart-product__price">
+												17 000
+												<span>₴</span>
+											</div>
+										</div>
+										<div data-fls-quantity="" class="quantity cart-product__quantity">
+											<button data-fls-quantity-minus="" type="button" class="quantity__button">
+												<svg width="7" height="2" viewbox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7 0V2H0V0H7Z" fill="currentColor"></path>
+												</svg>
+											</button>
+											<div class="quantity__input">
+												<input data-fls-quantity-value="" autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-fls-quantity-plus="" type="button" class="quantity__button">
+												<svg width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.12176 8V4.84148H0V3.15852H3.12176V0H4.88623V3.15852H8V4.84148H4.88623V8H3.12176Z" fill="currentColor"></path>
+												</svg>
+											</button>
+										</div>
+										<button type="button" class="cart-product__delete">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.3 5.1H3.7C3.51435 5.1 3.3363 5.17375 3.20503 5.30503C3.07375 5.4363 3 5.61435 3 5.8C3 5.98565 3.07375 6.1637 3.20503 6.29497C3.3363 6.42625 3.51435 6.5 3.7 6.5H5.1V14.9C5.10017 15.4569 5.32147 15.9909 5.71526 16.3847C6.10905 16.7785 6.6431 16.9998 7.2 17H12.8C13.3569 16.9999 13.891 16.7786 14.2848 16.3848C14.6786 15.991 14.8999 15.4569 14.9 14.9V6.5H16.3C16.4857 6.5 16.6637 6.42625 16.795 6.29497C16.9263 6.1637 17 5.98565 17 5.8C17 5.61435 16.9263 5.4363 16.795 5.30503C16.6637 5.17375 16.4857 5.1 16.3 5.1ZM9.3 12.8C9.3 12.9857 9.22625 13.1637 9.09497 13.295C8.9637 13.4263 8.78565 13.5 8.6 13.5C8.41435 13.5 8.2363 13.4263 8.10503 13.295C7.97375 13.1637 7.9 12.9857 7.9 12.8V9.3C7.9 9.11435 7.97375 8.9363 8.10503 8.80503C8.2363 8.67375 8.41435 8.6 8.6 8.6C8.78565 8.6 8.9637 8.67375 9.09497 8.80503C9.22625 8.9363 9.3 9.11435 9.3 9.3V12.8ZM12.1 12.8C12.1 12.9857 12.0262 13.1637 11.895 13.295C11.7637 13.4263 11.5857 13.5 11.4 13.5C11.2143 13.5 11.0363 13.4263 10.905 13.295C10.7737 13.1637 10.7 12.9857 10.7 12.8V9.3C10.7 9.11435 10.7737 8.9363 10.905 8.80503C11.0363 8.67375 11.2143 8.6 11.4 8.6C11.5857 8.6 11.7637 8.67375 11.895 8.80503C12.0262 8.9363 12.1 9.11435 12.1 9.3V12.8Z" fill="currentColor"></path>
+												<path d="M8.6 4.4H11.4C11.5857 4.4 11.7637 4.32625 11.895 4.19497C12.0262 4.0637 12.1 3.88565 12.1 3.7C12.1 3.51435 12.0262 3.3363 11.895 3.20503C11.7637 3.07375 11.5857 3 11.4 3H8.6C8.41435 3 8.2363 3.07375 8.10503 3.20503C7.97375 3.3363 7.9 3.51435 7.9 3.7C7.9 3.88565 7.97375 4.0637 8.10503 4.19497C8.2363 4.32625 8.41435 4.4 8.6 4.4Z" fill="currentColor"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</article>
+							<article class="cart-product">
+								<figure class="cart-product__img">
+									<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+								</figure>
+								<div class="cart-product__body">
+									<div class="cart-product__head">
+										<div class="cart-product__info">
+											<a href="#" class="cart-product__title">Aura - Black | Calm</a>
+											<div class="cart-product__text">Єдині в світі окуляри зі зміною кольору</div>
+										</div>
+									</div>
+									<div class="cart-product__bottom">
+										<div class="cart-product__prices">
+											<div class="cart-product__price">
+												18 500
+												<span>₴</span>
+											</div>
+										</div>
+										<div data-fls-quantity="" class="quantity cart-product__quantity">
+											<button data-fls-quantity-minus="" type="button" class="quantity__button">
+												<svg width="7" height="2" viewbox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7 0V2H0V0H7Z" fill="currentColor"></path>
+												</svg>
+											</button>
+											<div class="quantity__input">
+												<input data-fls-quantity-value="" autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-fls-quantity-plus="" type="button" class="quantity__button">
+												<svg width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.12176 8V4.84148H0V3.15852H3.12176V0H4.88623V3.15852H8V4.84148H4.88623V8H3.12176Z" fill="currentColor"></path>
+												</svg>
+											</button>
+										</div>
+										<button type="button" class="cart-product__delete">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.3 5.1H3.7C3.51435 5.1 3.3363 5.17375 3.20503 5.30503C3.07375 5.4363 3 5.61435 3 5.8C3 5.98565 3.07375 6.1637 3.20503 6.29497C3.3363 6.42625 3.51435 6.5 3.7 6.5H5.1V14.9C5.10017 15.4569 5.32147 15.9909 5.71526 16.3847C6.10905 16.7785 6.6431 16.9998 7.2 17H12.8C13.3569 16.9999 13.891 16.7786 14.2848 16.3848C14.6786 15.991 14.8999 15.4569 14.9 14.9V6.5H16.3C16.4857 6.5 16.6637 6.42625 16.795 6.29497C16.9263 6.1637 17 5.98565 17 5.8C17 5.61435 16.9263 5.4363 16.795 5.30503C16.6637 5.17375 16.4857 5.1 16.3 5.1ZM9.3 12.8C9.3 12.9857 9.22625 13.1637 9.09497 13.295C8.9637 13.4263 8.78565 13.5 8.6 13.5C8.41435 13.5 8.2363 13.4263 8.10503 13.295C7.97375 13.1637 7.9 12.9857 7.9 12.8V9.3C7.9 9.11435 7.97375 8.9363 8.10503 8.80503C8.2363 8.67375 8.41435 8.6 8.6 8.6C8.78565 8.6 8.9637 8.67375 9.09497 8.80503C9.22625 8.9363 9.3 9.11435 9.3 9.3V12.8ZM12.1 12.8C12.1 12.9857 12.0262 13.1637 11.895 13.295C11.7637 13.4263 11.5857 13.5 11.4 13.5C11.2143 13.5 11.0363 13.4263 10.905 13.295C10.7737 13.1637 10.7 12.9857 10.7 12.8V9.3C10.7 9.11435 10.7737 8.9363 10.905 8.80503C11.0363 8.67375 11.2143 8.6 11.4 8.6C11.5857 8.6 11.7637 8.67375 11.895 8.80503C12.0262 8.9363 12.1 9.11435 12.1 9.3V12.8Z" fill="currentColor"></path>
+												<path d="M8.6 4.4H11.4C11.5857 4.4 11.7637 4.32625 11.895 4.19497C12.0262 4.0637 12.1 3.88565 12.1 3.7C12.1 3.51435 12.0262 3.3363 11.895 3.20503C11.7637 3.07375 11.5857 3 11.4 3H8.6C8.41435 3 8.2363 3.07375 8.10503 3.20503C7.97375 3.3363 7.9 3.51435 7.9 3.7C7.9 3.88565 7.97375 4.0637 8.10503 4.19497C8.2363 4.32625 8.41435 4.4 8.6 4.4Z" fill="currentColor"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</article>
+							<article class="cart-product">
+								<figure class="cart-product__img">
+									<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+								</figure>
+								<div class="cart-product__body">
+									<div class="cart-product__head">
+										<div class="cart-product__info">
+											<a href="#" class="cart-product__title">Aura - Black | Calm</a>
+											<div class="cart-product__text">Єдині в світі окуляри зі зміною кольору</div>
+										</div>
+									</div>
+									<div class="cart-product__bottom">
+										<div class="cart-product__prices">
+											<div class="cart-product__price">
+												16 500
+												<span>₴</span>
+											</div>
+										</div>
+										<div data-fls-quantity="" class="quantity cart-product__quantity">
+											<button data-fls-quantity-minus="" type="button" class="quantity__button">
+												<svg width="7" height="2" viewbox="0 0 7 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M7 0V2H0V0H7Z" fill="currentColor"></path>
+												</svg>
+											</button>
+											<div class="quantity__input">
+												<input data-fls-quantity-value="" autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-fls-quantity-plus="" type="button" class="quantity__button">
+												<svg width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M3.12176 8V4.84148H0V3.15852H3.12176V0H4.88623V3.15852H8V4.84148H4.88623V8H3.12176Z" fill="currentColor"></path>
+												</svg>
+											</button>
+										</div>
+										<button type="button" class="cart-product__delete">
+											<svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.3 5.1H3.7C3.51435 5.1 3.3363 5.17375 3.20503 5.30503C3.07375 5.4363 3 5.61435 3 5.8C3 5.98565 3.07375 6.1637 3.20503 6.29497C3.3363 6.42625 3.51435 6.5 3.7 6.5H5.1V14.9C5.10017 15.4569 5.32147 15.9909 5.71526 16.3847C6.10905 16.7785 6.6431 16.9998 7.2 17H12.8C13.3569 16.9999 13.891 16.7786 14.2848 16.3848C14.6786 15.991 14.8999 15.4569 14.9 14.9V6.5H16.3C16.4857 6.5 16.6637 6.42625 16.795 6.29497C16.9263 6.1637 17 5.98565 17 5.8C17 5.61435 16.9263 5.4363 16.795 5.30503C16.6637 5.17375 16.4857 5.1 16.3 5.1ZM9.3 12.8C9.3 12.9857 9.22625 13.1637 9.09497 13.295C8.9637 13.4263 8.78565 13.5 8.6 13.5C8.41435 13.5 8.2363 13.4263 8.10503 13.295C7.97375 13.1637 7.9 12.9857 7.9 12.8V9.3C7.9 9.11435 7.97375 8.9363 8.10503 8.80503C8.2363 8.67375 8.41435 8.6 8.6 8.6C8.78565 8.6 8.9637 8.67375 9.09497 8.80503C9.22625 8.9363 9.3 9.11435 9.3 9.3V12.8ZM12.1 12.8C12.1 12.9857 12.0262 13.1637 11.895 13.295C11.7637 13.4263 11.5857 13.5 11.4 13.5C11.2143 13.5 11.0363 13.4263 10.905 13.295C10.7737 13.1637 10.7 12.9857 10.7 12.8V9.3C10.7 9.11435 10.7737 8.9363 10.905 8.80503C11.0363 8.67375 11.2143 8.6 11.4 8.6C11.5857 8.6 11.7637 8.67375 11.895 8.80503C12.0262 8.9363 12.1 9.11435 12.1 9.3V12.8Z" fill="currentColor"></path>
+												<path d="M8.6 4.4H11.4C11.5857 4.4 11.7637 4.32625 11.895 4.19497C12.0262 4.0637 12.1 3.88565 12.1 3.7C12.1 3.51435 12.0262 3.3363 11.895 3.20503C11.7637 3.07375 11.5857 3 11.4 3H8.6C8.41435 3 8.2363 3.07375 8.10503 3.20503C7.97375 3.3363 7.9 3.51435 7.9 3.7C7.9 3.88565 7.97375 4.0637 8.10503 4.19497C8.2363 4.32625 8.41435 4.4 8.6 4.4Z" fill="currentColor"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="cart__bottom">
+							<div class="cart__total">
+								<div class="cart__total-label">Загалом:</div>
+								<div class="cart__total-price">51 000 ₴</div>
+							</div>
+							<div class="cart__btns">
+								<button type="button" class="cart__btn button button--secondary" data-menu-close="">Повернутись</button>
+								<a href="#" class="cart__order button">Оформити замовлення</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="search-block" data-menu-target="search">
+					<div class="search-block__inner">
+						<div class="search-block__head">
+							<div class="search-block__title title title--h2">Пошук</div>
+							<button type="button" class="search-block__close close-icon" data-menu-close="">
+								<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+								</svg>
+							</button>
+						</div>
+						<div class="search-block__field">
+							<input autocomplete="off" type="text" name="search" placeholder="Що будемо шукати?" class="search-block__input">
+						</div>
+						<div class="search-block__body">
+							<div class="search-block__results">
+								<article class="search-product">
+									<figure class="search-product__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+									<div class="search-product__body">
+										<div class="search-product__head">
+											<a href="#" class="search-product__title">Aura - Black | Calm</a>
+											<div class="search-product__text">Єдині в світі окуляри зі зміною кольору</div>
+										</div>
+										<div class="search-product__bottom">
+											<div class="search-product__prices">
+												<div class="search-product__oldprice">
+													19 000
+													<span>₴</span>
+												</div>
+												<div class="search-product__price">
+													17 000
+													<span>₴</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="search-product">
+									<figure class="search-product__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+									<div class="search-product__body">
+										<div class="search-product__head">
+											<a href="#" class="search-product__title">Echo - Blue | Focus</a>
+											<div class="search-product__text">Окуляри для підвищення продуктивності</div>
+										</div>
+										<div class="search-product__bottom">
+											<div class="search-product__prices">
+												<div class="search-product__price">
+													19 500
+													<span>₴</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="search-product">
+									<figure class="search-product__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+									<div class="search-product__body">
+										<div class="search-product__head">
+											<a href="#" class="search-product__title">Nexus - Green | Balance</a>
+											<div class="search-product__text">Гармонійні окуляри для кожного дня</div>
+										</div>
+										<div class="search-product__bottom">
+											<div class="search-product__prices">
+												<div class="search-product__price">
+													18 000
+													<span>₴</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="search-product">
+									<figure class="search-product__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+									<div class="search-product__body">
+										<div class="search-product__head">
+											<a href="#" class="search-product__title">Nexus - Green | Balance</a>
+											<div class="search-product__text">Гармонійні окуляри для кожного дня</div>
+										</div>
+										<div class="search-product__bottom">
+											<div class="search-product__prices">
+												<div class="search-product__price">
+													18 000
+													<span>₴</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="search-product">
+									<figure class="search-product__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+									<div class="search-product__body">
+										<div class="search-product__head">
+											<a href="#" class="search-product__title">Vortex - Red | Energy</a>
+											<div class="search-product__text">Динамічні окуляри зі стильним дизайном</div>
+										</div>
+										<div class="search-product__bottom">
+											<div class="search-product__prices">
+												<div class="search-product__price">
+													16 500
+													<span>₴</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article class="search-product">
+									<figure class="search-product__img">
+										<img alt="Image" loading="lazy" src="./assets/img/products/image-1.webp">
+									</figure>
+									<div class="search-product__body">
+										<div class="search-product__head">
+											<a href="#" class="search-product__title">Zenith - Gold | Luxury</a>
+											<div class="search-product__text">Ексклюзивні окуляри для елегантності</div>
+										</div>
+										<div class="search-product__bottom">
+											<div class="search-product__prices">
+												<div class="search-product__price">
+													22 000
+													<span>₴</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="search-block__bottom">
+								<a href="#" class="search-block__all button button--third">
+									<span>Всі результати пошуку</span>
+									<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<section class="infoblock">
+					<div class="infoblock__container">
+						<div class="infoblock__body infoblock__body--center">
+							<div class="infoblock__content">
+								<div class="infoblock__error">404</div>
+								<div class="infoblock__title title title--h3">Сторінку не знайдено</div>
+								<div class="infoblock__text">
+									Можливо, посилання застаріло або адреса була введена
+					з помилкою. Але це не привід втрачати фокус.
+								</div>
+								<a href="#" class="infoblock__btn button button--secondary">
+									<span>Повернутись на головну</span>
+									<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+									</svg>
+								</a>
+							</div>
+							<div class="infoblock__bg">
+								<picture>
+									<source srcset="./assets/img/infoblock/image-2-mob.webp" media="(max-width: 650px)">
+									<img alt="Image" loading="lazy" src="./assets/img/infoblock/image-2.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__info">
+							<div class="footer__subtitle title title--h4">
+								Отримайте -10%
+								<br>
+								<span>Просто підпишіться на новини</span>
+							</div>
+							<form action="#" class="footer__form">
+								<div class="footer__form-text">
+									Крім того, дізнавайтеся про спеціальні пропозиції та нові стилі. Не хвилюйтеся, ми не будемо
+						засипати вас повідомленнями!
+								</div>
+								<div class="footer__form-body">
+									<div class="footer__form-field">
+										<input autocomplete="off" type="text" name="email" placeholder="Заповніть вашу пошту" class="footer__form-input">
+										<button type="button" class="footer__form-send" disabled>Надіслати</button>
+									</div>
+									<div class="footer__form-success">Успішно! Перевірте пошту</div>
+								</div>
+								<div class="footer__form-warning">
+									*Заповнюючи цю форму, ви підписуєтеся на нашу розсилку та можете відмовитися від неї в будь-який
+						час.
+								</div>
+							</form>
+							<div data-fls-dynamic=".footer__body, 768" class="footer__bottom">
+								<div class="footer__copy">©2026, Chamelo</div>
+								<div class="footer__links">
+									<a href="#" class="footer__link">Політика конфиденційності</a>
+								</div>
+							</div>
+						</div>
+						<nav class="footer__menu">
+							<div class="footer__menu-col">
+								<div class="footer__menu-title">Магазин</div>
+								<ul class="footer__menu-list">
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Бестселлери</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Спорт</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Лайфстайл</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Призматік</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Каталог</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Аксесуари</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__menu-col">
+								<div class="footer__menu-title">Дізнатися</div>
+								<ul class="footer__menu-list">
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Інновації</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Наша історія</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Нарешті</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Знайти магазин</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Прес-центр</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Кар'єра</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__menu-col">
+								<div class="footer__menu-title">Підтримка</div>
+								<ul class="footer__menu-list">
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Зв'яжіться з нами</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Поширені запитання</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Повернення та обмін</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Доставка</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Реєстрація гарантії</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Відстежити замовлення</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__menu-col">
+								<div class="footer__menu-title">Підписатися</div>
+								<ul class="footer__menu-list">
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Instagram</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">TikTok</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">Facebook</a>
+									</li>
+									<li class="footer__menu-item">
+										<a href="#" class="footer__menu-link">YouTube</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__logo">
+					<img src="./assets/img/logo-footer.svg" alt="Image" loading="lazy">
+				</div>
+				<div class="footer__container">
+					<a href="#" class="footer__dev">
+						<div class="footer__dev-logo">
+							<img src="./assets/img/alicom.svg" alt="Image" loading="lazy">
+						</div>
+						<div class="footer__dev-text">Powered by Al-Icom</div>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<figure class="popup__img">
+						<img alt="Image" loading="lazy" src="./assets/img/popup/image-1.webp">
+					</figure>
+					<div data-fls-popup-content="" class="popup__content">
+						<button data-fls-popup-close="" type="button" class="popup__close close-icon">
+							<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+							</svg>
+						</button>
+						<div class="popup__title title title--h2">Залишились питання?</div>
+						<div class="popup__text">Залиште ваш номер телефону і наш менеджер
+					зателефонує Вам в робочий час.</div>
+						<form action="#" class="popup__form">
+							<div class="popup__inputs">
+								<div class="input-field">
+									<label class="input-field__label">Ім’я*</label>
+									<input autocomplete="off" type="text" name="name" placeholder="" class="input-field__input input">
+								</div>
+								<div class="input-field">
+									<input autocomplete="off" type="text" name="phone" placeholder="+38 (XXX) XXX XX XX*" class="input-field__input input" data-fls-input-mask="+38 (999) 999 99 99">
+								</div>
+							</div>
+							<button type="submit" class="popup__send button">
+								<span>Залишити заявку</span>
+								<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+								</svg>
+							</button>
+						</form>
+						<button data-fls-popup-link="popup-success" type="button" class="button">popup-success</button>
+						<button data-fls-popup-link="popup-error" type="button" class="button">popup-error</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-success" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<figure class="popup__img">
+						<img alt="Image" loading="lazy" src="./assets/img/popup/image-2.webp">
+					</figure>
+					<div data-fls-popup-content="" class="popup__content">
+						<button data-fls-popup-close="" type="button" class="popup__close close-icon">
+							<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+							</svg>
+						</button>
+						<div class="popup__title title title--h2">Дякуємо за заявку</div>
+						<div class="popup__text">Ми отримали контакти. Наш менеджер зв'яжеться з Вами у робочий час.</div>
+						<a href="#" class="popup__btn button">
+							<span>Повернутись на головну</span>
+							<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-error" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<figure class="popup__img">
+						<img alt="Image" loading="lazy" src="./assets/img/popup/image-4.webp">
+					</figure>
+					<div data-fls-popup-content="" class="popup__content">
+						<button data-fls-popup-close="" type="button" class="popup__close close-icon">
+							<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+							</svg>
+						</button>
+						<div class="popup__title title title--h2">Щось пішло не так</div>
+						<div class="popup__text">
+							Здається, сталася помилка. Спробуйте оновити сторінку, можливо, це тимчасово. Якщо проблема
+					залишається, напишіть нам, і ми обов'язково все виправимо.
+						</div>
+						<a href="#" class="popup__btn button">
+							<span>Повернутись на головну</span>
+							<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-proposal" aria-hidden="true" class="popup popup--proposal">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<figure class="popup__img">
+						<picture>
+							<source srcset="./assets/img/popup/image-3-mob.webp" media="(max-width: 767.98px)">
+							<img alt="Image" loading="lazy" src="./assets/img/popup/image-3.webp">
+						</picture>
+					</figure>
+					<div data-fls-popup-content="" class="popup__content">
+						<button data-fls-popup-close="" type="button" class="popup__close close-icon">
+							<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.5 5.05556L11.5556 0L13 1.44444L7.94444 6.5L13 11.5556L11.5556 13L6.5 7.94444L1.44444 13L0 11.5556L5.05556 6.5L0 1.44444L1.44444 0L6.5 5.05556Z" fill="currentColor"></path>
+							</svg>
+						</button>
+						<div class="popup__subtitle subtitle">ексклюзивна пропозиція</div>
+						<div class="popup__title title title--h3">Змінюйте тон за менше ніж 0,1 секунди</div>
+						<div class="popup__text">
+							Оберіть точний тон скла за допомогою сенсорного слайдера тонування, автоматичного контролю тонування
+					та навіть керування через додаток.
+						</div>
+						<a href="#" class="popup__btn button button--third">
+							<span>Деталі</span>
+							<svg width="13" height="14" viewbox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.26 14L4 12.775L9.04 7.875H0V6.125H9.04L4 1.225L5.26 0L12.46 7L5.26 14Z" fill="currentColor"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module" crossorigin="" src="./js/no-page.min.js?v=1777639389755"></script>
+	</body>
+</html>

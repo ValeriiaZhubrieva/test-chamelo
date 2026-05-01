@@ -1,0 +1,128 @@
+.delpay {
+  margin-bottom: 160px;
+}
+.delpay__title {
+  margin-bottom: 36px;
+}
+.delpay__body {
+  padding-block: 40px;
+  position: relative;
+  z-index: 2;
+  clip-path: inset(0);
+}
+.delpay__content {
+  max-width: 856px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--colors-white-100);
+  padding: 40px;
+}
+.delpay__block {
+  display: flex;
+  flex-direction: column;
+}
+.delpay__block:not(:last-child) {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--colors-grey-55);
+}
+.delpay__block > *:not(:last-child) {
+  margin-bottom: 24px;
+}
+.delpay__subtitle:not(:last-child) {
+  margin-bottom: 36px;
+}
+.delpay__item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.delpay__item-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.delpay__item-icon {
+  flex-shrink: 0;
+  width: 40px;
+  aspect-ratio: 1/1;
+  background-color: var(--colors-black-100);
+  color: var(--colors-white-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+.delpay__item-icon img,
+.delpay__item-icon svg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.delpay__item-title {
+  font-weight: 600;
+}
+.delpay__item-title {
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+.delpay__item-body {
+  font-size: 16px;
+  line-height: 120%;
+}
+.delpay__bg {
+  position: fixed;
+  top: calc(var(--header-height, 0) - 5px);
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, 0px);
+  height: 100%;
+  width: 100vw;
+  min-height: 300px;
+  pointer-events: none;
+  display: grid;
+  will-change: transform;
+}
+.delpay__bg img,
+.delpay__bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (width <= 62em) {
+  .delpay {
+    margin-bottom: 100px;
+  }
+  .delpay__title {
+    margin-bottom: 32px;
+  }
+  .delpay__body {
+    clip-path: none;
+    padding-block: 0;
+  }
+  .delpay__content {
+    padding: 20px;
+  }
+  .delpay__bg {
+    position: static;
+    top: 0;
+    transform: none;
+    width: 100%;
+  }
+}
+@media (width <= 30em) {
+  .delpay__item-title {
+    font-size: 22px;
+  }
+}
+@media (width > 30em) and (width <= 103.25em) {
+  .delpay__item-title {
+    font-size: clamp( 22px , 21.180887372px  +  0.1706484642vw , 24px );
+  }
+}
+@media (width > 103.25em) {
+  .delpay__item-title {
+    font-size: 24px;
+  }
+}

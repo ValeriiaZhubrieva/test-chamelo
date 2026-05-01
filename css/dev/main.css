@@ -1,0 +1,45 @@
+.quantity {
+  width: 68px;
+  height: 20px;
+  display: flex;
+}
+.quantity__button {
+  align-self: center;
+  flex: 0 0 20px;
+  aspect-ratio: 1/1;
+  position: relative;
+  cursor: pointer;
+  border-radius: 18px;
+  background-color: var(--colors-black-100);
+  color: var(--colors-white-100);
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, color 0.3s;
+}
+.quantity__button > * {
+  pointer-events: none;
+}
+.quantity__button.disabled, .quantity__button[disabled] {
+  cursor: no-drop;
+  background-color: var(--colors-grey-50);
+  color: var(--colors-grey-100);
+}
+.quantity__input {
+  flex: 1 1 auto;
+}
+.quantity__input input {
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  caret-color: inherit;
+}
+@media (any-hover: hover) {
+  .quantity__button:not(.disabled, [disabled]):hover {
+    background-color: var(--colors-black-70);
+  }
+}
