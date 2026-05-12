@@ -37,6 +37,7 @@ textarea {
 input,
 textarea {
 	width: 100%;
+	outline: none;
 }
 label {
 	display: inline-block;
@@ -188,6 +189,7 @@ body {
   transition: background 0.3s, border 0.3s, color 0.3s;
 }
 .button[disabled], .button.disabled {
+  cursor: no-drop;
   opacity: 0.5;
 }
 .button.is-active, .button.--tab-active {
@@ -336,6 +338,16 @@ textarea.input {
   top: 0;
   font-size: 12px;
 }
+.is-error .input-field__label {
+  color: #ff5858;
+}
+.input-field__error {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ff5858;
+}
+
 [data-menu-target] {
   pointer-events: none;
   overflow: hidden auto;
@@ -382,6 +394,10 @@ textarea.input {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
+}
+
+[data-fls-mouse] {
+  will-change: transform;
 }
 
 .swiper-button-prev,
@@ -758,10 +774,7 @@ textarea.input {
   letter-spacing: -0.02em;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  word-break: break-word;
+  white-space: nowrap;
 }
 .product-card__title:not(:last-child) {
   margin-bottom: 4px;
@@ -770,6 +783,9 @@ textarea.input {
   max-width: fit-content;
   position: relative;
   z-index: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .product-card__rating {
   max-width: fit-content;
@@ -1405,6 +1421,10 @@ textarea.input {
   .product-card:hover .product-card__buy {
     background-color: var(--colors-white-100);
     color: var(--colors-black-100);
+  }
+  .product-card:hover .product-card__buy.is-active {
+    background-color: var(--colors-black-70);
+    color: var(--colors-white-100);
   }
   .product-card:hover .stars-block__bg {
     color: var(--colors-grey-80);

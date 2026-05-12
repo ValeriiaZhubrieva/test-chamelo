@@ -2,6 +2,9 @@
   background: linear-gradient(214deg, #1d1d1d 0%, #000 100%);
   color: var(--colors-white-100);
 }
+.is-ios .footer {
+  background: #000;
+}
 .footer__body {
   padding-block: 110px 80px;
   display: flex;

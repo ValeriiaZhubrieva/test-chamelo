@@ -4101,7 +4101,7 @@ function EffectFade({ swiper, extendParams, on }) {
 }
 //#endregion
 //#region src/components/layout/slider/slider.js
-function initSliders() {
+window.initSliders = function() {
 	if (document.querySelector(".hero__slider")) new Swiper(".hero__slider", {
 		modules: [Navigation, Pagination],
 		observer: true,
@@ -4342,6 +4342,6 @@ function initSliders() {
 			on: {}
 		});
 	});
-}
-document.querySelector("[data-fls-slider]") && window.addEventListener("load", initSliders);
+};
+document.querySelector("[data-fls-slider]") && window.addEventListener("load", window.initSliders);
 //#endregion

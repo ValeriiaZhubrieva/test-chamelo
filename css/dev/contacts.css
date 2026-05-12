@@ -3,10 +3,13 @@
 }
 .contacts__body {
   display: flex;
+  align-items: start;
   justify-content: space-between;
   gap: 32px;
 }
 .contacts__head {
+  position: sticky;
+  top: var(--header-height);
   max-width: 393px;
   width: 100%;
   display: flex;
@@ -103,6 +106,7 @@
     flex-direction: column;
   }
   .contacts__head {
+    position: static;
     padding: 0 16px;
     max-width: 100%;
   }

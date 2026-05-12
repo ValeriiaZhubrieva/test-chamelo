@@ -4,6 +4,7 @@ import "./slider.min.js";
 import "./app.min.js";
 import "./popup.min.js";
 import "./dynamic.min.js";
+import "./quantity.min.js";
 import "./header.min.js";
 /* empty css         */
 /* empty css         */
@@ -17,5 +18,5 @@ import "./tabs.min.js";
 /* empty css        */
 /* empty css             */
 import "./mouse.min.js";
-/* empty css         */
+import "./hero.min.js";
 /* empty css                 */

@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1500;
+  z-index: 3500;
   width: 100%;
   background-color: var(--colors-white-100);
   padding-block: 20px;
@@ -20,9 +20,11 @@
   gap: 20px;
 }
 .header__burger {
+  max-width: fit-content;
   display: flex;
   align-items: center;
   gap: 10px;
+  border-radius: 36px;
   color: var(--colors-black-100);
   transition: color 0.3s;
 }
@@ -189,7 +191,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1500;
+  z-index: 3500;
   width: 100%;
   background-color: var(--colors-white-100);
   border-bottom: 1px solid var(--colors-grey-60);

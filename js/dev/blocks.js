@@ -4,6 +4,7 @@ import "./slider.min.js";
 import "./app.min.js";
 import "./popup.min.js";
 import "./dynamic.min.js";
+import "./quantity.min.js";
 import "./header.min.js";
 /* empty css         */
 /* empty css         */
@@ -18,7 +19,10 @@ import "./spollers.min.js";
 import "./catalog2.min.js";
 /* empty css               */
 import "./tabs.min.js";
+import "./rating.min.js";
+import "./scrollto.min.js";
 /* empty css                   */
+/* empty css            */
 /* empty css          */
 import "./lenses.min.js";
 /* empty css                     */
@@ -29,11 +33,11 @@ import "./lenses.min.js";
 /* empty css         */
 /* empty css          */
 /* empty css               */
-/* empty css               */
+import "./descr-tech.min.js";
 /* empty css         */
 /* empty css             */
 import "./mouse.min.js";
-/* empty css         */
+import "./hero.min.js";
 /* empty css                 */
 /* empty css           */
 /* empty css              */

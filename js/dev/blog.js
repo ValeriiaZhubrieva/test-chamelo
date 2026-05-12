@@ -3,6 +3,7 @@ import "./main.min.js";
 import "./app.min.js";
 import "./popup.min.js";
 import "./dynamic.min.js";
+import "./quantity.min.js";
 import "./header.min.js";
 /* empty css         */
 /* empty css         */
@@ -10,5 +11,6 @@ import "./header.min.js";
 /* empty css               */
 import "./footer.min.js";
 /* empty css               */
+import "./scrollto.min.js";
 /* empty css              */
 /* empty css          */

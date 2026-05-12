@@ -1,6 +1,6 @@
-import { a as getHash, c as slideDown, i as dataMediaQueries, s as setHash, u as slideUp } from "./app.min.js";
+import { a as getHash, c as setHash, d as slideUp, i as dataMediaQueries, l as slideDown } from "./app.min.js";
 //#region src/components/layout/tabs/tabs.js
-function tabs() {
+window.tabs = function() {
 	const tabs = document.querySelectorAll("[data-fls-tabs]");
 	let tabsActiveHash = [];
 	if (tabs.length > 0) {
@@ -94,6 +94,6 @@ function tabs() {
 			e.preventDefault();
 		}
 	}
-}
-window.addEventListener("load", tabs);
+};
+window.addEventListener("load", window.tabs);
 //#endregion

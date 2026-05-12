@@ -17,13 +17,14 @@
   align-self: stretch;
   display: flex;
   min-height: 300px;
-  aspect-ratio: 1246/872;
+  aspect-ratio: 2/1;
 }
 .blog-hero__media img,
 .blog-hero__media video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 .blog-hero__content {
   max-width: 472px;

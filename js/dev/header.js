@@ -1,4 +1,4 @@
-import { o as isMobile } from "./app.min.js";
+import { s as isMobile } from "./app.min.js";
 //#region src/components/layout/header/header.js
 window.enableFocusTrap = function(menu, { openClass = "is-open" } = {}) {
 	const focusableSelector = "a[href], button:not([disabled]), textarea, input:not([disabled]), select, [tabindex]:not([tabindex=\"-1\"])";
