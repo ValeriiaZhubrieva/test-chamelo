@@ -1,4 +1,4 @@
-body::after {
+.popup-overlay {
   content: "";
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
@@ -7,12 +7,12 @@ body::after {
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity 0.8s ease 0s;
+  transition: opacity 0.3s ease 0s;
   pointer-events: none;
   z-index: 100649;
 }
 
-[data-fls-popup-open] body::after {
+[data-fls-popup-open] .popup-overlay {
   opacity: 1;
 }
 

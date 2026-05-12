@@ -87,7 +87,15 @@ var Popup = class {
 		this.buildPopup();
 		this.eventsPopup();
 	}
-	buildPopup() {}
+	buildPopup() {
+		if (document.querySelector(".popup-overlay")) return;
+		const overlay = document.createElement("div");
+		overlay.className = "popup-overlay";
+		document.body.appendChild(overlay);
+		overlay.addEventListener("click", () => {
+			if (this.isOpen) this.close();
+		});
+	}
 	eventsPopup() {
 		document.addEventListener("click", function(e) {
 			const buttonOpen = e.target.closest(`[${this.options.attributeOpenButton}]`);
