@@ -9,7 +9,7 @@ body::after {
   opacity: 0;
   transition: opacity 0.8s ease 0s;
   pointer-events: none;
-  z-index: 3649;
+  z-index: 30649;
 }
 
 [data-fls-popup-open] body::after {
@@ -28,7 +28,7 @@ body::after {
   pointer-events: none;
 }
 [data-fls-popup][data-fls-popup-active] {
-  z-index: 3650;
+  z-index: 30650;
   visibility: visible;
   overflow: auto;
   pointer-events: auto;

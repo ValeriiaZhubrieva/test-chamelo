@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 3600;
+  z-index: 30600;
   width: 100%;
   overflow: visible;
   height: var(--viewport-height);
@@ -11,7 +11,7 @@
   transition: opacity 0.3s, visibility 0.3s;
 }
 .size-popup.is-open {
-  z-index: 3600;
+  z-index: 30600;
   transition: opacity 0s, visibility 0s;
 }
 .size-popup.is-open .size-popup__inner {
