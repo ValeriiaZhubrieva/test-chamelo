@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 30500;
+  z-index: 99999;
   width: 100%;
   background-color: var(--colors-white-100);
   padding-block: 20px;
@@ -191,7 +191,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 30500;
+  z-index: 99999;
   width: 100%;
   background-color: var(--colors-white-100);
   border-bottom: 1px solid var(--colors-grey-60);
