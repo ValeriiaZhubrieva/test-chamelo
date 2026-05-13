@@ -667,6 +667,7 @@ textarea.input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 200px;
 }
 .product-card__badges {
   position: absolute;
@@ -719,7 +720,6 @@ textarea.input {
 }
 .product-card__img {
   width: 100%;
-  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
