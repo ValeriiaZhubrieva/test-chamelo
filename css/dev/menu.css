@@ -289,6 +289,8 @@
     gap: 8px;
     padding: 16px;
     background-color: var(--colors-white-100);
+    position: relative;
+    z-index: 5;
   }
   .menu__logo {
     max-width: 168px;
