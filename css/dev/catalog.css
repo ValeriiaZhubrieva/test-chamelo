@@ -328,6 +328,9 @@
   .catalog__items.items-grid-big .product-card {
     padding: 16px 12px;
   }
+  .catalog__items.items-grid-big .product-card .product-card__top {
+    aspect-ratio: 250/350;
+  }
   .catalog__items.items-grid-big .product-card .product-card__badge {
     min-height: 28px;
     padding: 6px 8px;
