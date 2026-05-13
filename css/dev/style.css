@@ -716,6 +716,7 @@ textarea.input {
   justify-content: center;
 }
 .product-card__img {
+  width: 100%;
   min-height: 200px;
   display: flex;
   align-items: center;

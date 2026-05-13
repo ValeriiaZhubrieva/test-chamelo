@@ -117,7 +117,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 3600;
+  z-index: 100600;
   width: 100%;
   overflow: visible;
   height: var(--viewport-height);
@@ -126,7 +126,7 @@
   transition: opacity 0.3s, visibility 0.3s;
 }
 .filters-aside.is-open {
-  z-index: 3600;
+  z-index: 100600;
   transition: opacity 0s, visibility 0s;
 }
 .filters-aside.is-open .filters-aside__inner {
